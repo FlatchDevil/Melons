@@ -7,6 +7,8 @@ h3 {
 .heading{
     color:darkblue;
     background-color:#ccc;
+    border:4px solid black;
+    text-align:center;
 }
 img {
         border: 4px solid green;
@@ -16,4 +18,31 @@ img {
     color:red;
     background-image:url(image/kot.jpg) ;
     background-position:center;
+}
+.orange {
+    color:orange;
+}
+.lime {
+    color:lime;
+}
+.gold {
+    color:gold;
+}
+.link{
+    text-decoration: none;
+    text-transform:lowercase;
+}
+.list li {
+    font-weight:70px;
+    height:50px;
+    border: 1px solid #ccc;
+}
+.list + h2{
+    color:darkgreen;
+}
+h1,h2,p{
+    text-align:center;
+}
+p{
+font-size:40px;
 }
